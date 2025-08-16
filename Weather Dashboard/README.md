@@ -67,25 +67,6 @@ this.apiKey = 'your_actual_api_key_here';
 - City will be saved and displayed in the grid
 - Remove cities by clicking the × button
 
-### Keyboard Shortcuts
-- `Ctrl + K` - Focus search input
-
-## API Endpoints Used
-
-- **Current Weather**: `/weather` - Current conditions for a city
-- **Forecast**: `/forecast` - 5-day forecast data
-- **Geolocation**: Coordinates-based weather lookup
-
-## Project Structure
-
-```
-Weather Dashboard/
-├── index.html          # Main HTML structure
-├── styles.css          # CSS styling and responsive design
-├── script.js           # JavaScript functionality
-└── README.md           # This file
-```
-
 ## Features in Detail
 
 ### Current Weather Display
@@ -114,74 +95,7 @@ Weather Dashboard/
 - Touch-friendly interactions
 - Optimized for all screen sizes
 
-## Browser Compatibility
-
-- Chrome 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
-
-## Performance Features
-
-- Efficient API calls with error handling
-- Smooth loading states and animations
-- Optimized DOM manipulation
-- Local storage for offline city access
-
-## Customization
-
-### Changing Colors
-Modify the CSS variables in `styles.css`:
-
-```css
-:root {
-    --primary-color: #667eea;
-    --secondary-color: #764ba2;
-    --accent-color: #f6ad55;
-}
-```
-
-### Adding More Weather Data
-Extend the `displayCurrentWeather` method in `script.js` to show additional weather information like:
-- Pressure
-- UV index
-- Sunrise/sunset times
-- Air quality
-
-### Temperature Units
-The dashboard currently uses Celsius. To add Fahrenheit support, modify the temperature conversion methods in `script.js`.
-
-## Troubleshooting
-
-### Common Issues
-
-1. **API Key Error**: Ensure your OpenWeatherMap API key is correctly set
-2. **Location Not Working**: Check browser permissions and HTTPS requirement
-3. **Cities Not Loading**: Verify internet connection and API status
-4. **Styling Issues**: Ensure all CSS and font files are properly linked
-
-### API Limits
-- Free OpenWeatherMap accounts have 1000 calls/day limit
-- Consider upgrading for production use
-
-## Future Enhancements
-
-- [ ] Temperature unit toggle (Celsius/Fahrenheit)
-- [ ] Extended 7-day forecast
-- [ ] Weather maps integration
-- [ ] Push notifications for weather alerts
-- [ ] Dark/light theme toggle
-- [ ] Weather history charts
-- [ ] Export weather data
-- [ ] Multi-language support
-
-## Contributing
-
-Feel free to submit issues, feature requests, or pull requests to improve this weather dashboard!
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+---
 
 ## Credits
 
