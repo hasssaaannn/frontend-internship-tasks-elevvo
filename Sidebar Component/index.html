@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Component</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Mobile Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                <div class="logo-placeholder">
+                    <i class="fas fa-cube"></i>
+                    <span class="logo-text">Brand</span>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-home"></i>
+                            <span class="link-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-user"></i>
+                            <span class="link-text">Profile</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="link-text">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-cog"></i>
+                            <span class="link-text">Settings</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span class="link-text">Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Toggle Button -->
+            <div class="toggle-section">
+                <button class="toggle-btn" id="toggleBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <h1>Sidebar Component Demo</h1>
+                <p>Click the toggle button to open/close the sidebar</p>
+            </header>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
